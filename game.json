@@ -1,0 +1,73 @@
+{
+	"animatronics": {
+		"xavion": {
+			"ai": [ 2, 5, 8, 12, 16, 20, 0 ],
+			"ignoremask": false,
+			"jumpscare": [ "The Coasters   Sh Boom Life Could Be A Dream.mp3", "" ],
+			"path": []
+		}
+	},
+	"cameras": {
+		"CamUI": {
+			"buttons": [],
+			"music_box": [ 550, 60 ],
+			"sprites": []
+		}
+	},
+	"game_info": {
+		"fullscreen": true,
+		"id": "xavions",
+		"title": "fnax"
+	},
+	"loaded_extensions": [],
+	"menus": [],
+	"office": {
+		"animations": {
+			"camera": "",
+			"mask": "",
+			"powerout": ""
+		},
+		"flashlight": true,
+		"mask": false,
+		"objects": [],
+		"panorama": true,
+		"power": {
+			"animatronic": "xavion",
+			"enabled": true,
+			"starting_level": 99,
+			"ucn": false
+		},
+		"states": {
+			"Default": "",
+			"office": "Drawing-1.sketchpad.png"
+		},
+		"toxic": false,
+		"uibuttons": {
+			"camera": {
+				"image": "e.defaultcamera",
+				"position": [ 415, 315 ]
+			},
+			"mask": {
+				"image": "e.defaultmask",
+				"position": [ 175, 315 ]
+			}
+		}
+	},
+	"sounds": {
+		"ambience": "",
+		"animatronic_move": [],
+		"blip": "",
+		"camdown": "",
+		"camup": "",
+		"flashlight": "",
+		"maskbreathing": "",
+		"maskoff": "",
+		"maskon": "",
+		"masktoxic": "",
+		"music_box_run_out": "",
+		"phone_calls": [ "", "", "", "", "", "" ],
+		"powerout": "",
+		"signal_interrupted": "",
+		"stare": ""
+	}
+}
